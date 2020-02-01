@@ -96,3 +96,4 @@
 
 # 下载
 
+前往[release](https://github.com/muyuuuu/NCST-MMA-Contest-Management-System-Public/releases)下载。
