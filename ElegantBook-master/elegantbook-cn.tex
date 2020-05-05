@@ -1,14 +1,15 @@
-\documentclass[cn,11pt,chinese, hazy]{elegantbook}
+\documentclass[cn, 11pt, chinese, show]{elegantbook}
 \usepackage{fontspec}
+\usepackage{xeCJK}
 \setCJKmainfont{SourceHanSerifCN-Regular}
 % \setmainfont{texgyrepagella-regular.otf}
-\setmonofont{Monaco}
+\setmonofont{Hack-Regular}
 
 \title{数学建模竞赛信息管理软件}
 \subtitle{华北理工大学数学建模协会}
 
 \author{16计科刘佳玮}
-\date{May 10, 2020}
+\date{May 10， 2020}
 \version{2.0}
 \bioinfo{依赖}{Elegant\LaTeX{} Program}
 
@@ -49,7 +50,7 @@
 
 \begin{flushright}
 刘佳玮\\
-May 10, 2020
+May 10， 2020
 \end{flushright}
 
 \tableofcontents
@@ -63,7 +64,8 @@ May 10, 2020
 如果您有其它问题或建议，欢迎在Github上给我们提交
  \href{https://github.com/muyuuuu/NCST-MMA-Contest-Management-System-Public}{issues}来联系我们。
 
-我们的联系方式如下，不建议用户直接加 QQ 或者 微信 聊天，这样不便于获得准确的反馈。
+我们的联系方式如下，不建议用户直接加 QQ 或者 微信 聊天，这样不便于获得准确的反馈。且开发者不喜欢盯着聊天软件看，且时常忘记回复QQ或微信消息以至于干脆
+不回复消息。
 \begin{itemize}
   \item 介绍：\href{https://muyuuuu.github.io/2020/02/01/NCSTModel/}{https://muyuuuu.github.io/2020/02/01/NCSTModel/}
   \item GitHub 网址：\href{https://github.com/muyuuuu/NCST-MMA-Contest-Management-System-Public}{https://github.com/muyuuuu/NCST-MMA-Contest-Management-System-Public}
@@ -118,8 +120,8 @@ May 10, 2020
 \end{itemize}
 
 \begin{remark}
-    GitHub是Git的托管服务，Pull Request 或者 issue是Github中常见的软件开方式, 便于开发者进行代码审查和BUG追踪等
-    。Git是一种版本管理软件, 建议任何专业的用户掌握基本的Git用法，文件丢失、恢复一个月之前的文件等
+    GitHub是Git的托管服务，Pull Request 或者 issue是Github中常见的软件开方式， 便于开发者进行代码审查和BUG追踪等
+    。Git是一种版本管理软件， 建议任何专业的用户掌握基本的Git用法，文件丢失、恢复一个月之前的文件等
     常见问题均可由Git解决。
 \end{remark}
 
@@ -197,13 +199,13 @@ May 10, 2020
 
 \section{查询信息}
 
-任何用户均能自由使用查询信息的功能, 无论是查找心仪教师的带队信息, 还是具体到某一个人的参赛信息, 
+任何用户均能自由使用查询信息的功能， 无论是查找心仪教师的带队信息， 还是具体到某一个人的参赛信息， 
 整体界面如\ref{fig:query}所示。
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=11cm, height=7cm]{figure/6.png}
-    \caption{Caption}
+    \caption{查询信息界面}
     \label{fig:query}
 \end{figure}
 
@@ -212,18 +214,18 @@ May 10, 2020
 \begin{figure}[h]
     \centering
     \includegraphics[width=11cm, height=8cm]{figure/7.png}
-    \caption{Caption}
+    \caption{查询教师信息}
     \label{fig:query_teacher}
 \end{figure}
 
 \newpage
 
-在按学生查询中，输入学生的姓名或学号，回车即可查询，如图\ref{fig:query_student}。
+在按学生查询中，输入学生的姓名或学号，回车即可查询，如图\ref{fig:query_student}。当然现在还查询不了， 信息尚未录入。
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=12cm, height=8cm]{figure/8.png}
-    \caption{Caption}
+    \caption{查询学生参赛信息}
     \label{fig:query_student}
 \end{figure}
 
@@ -233,7 +235,7 @@ May 10, 2020
 \begin{figure}[h]
     \centering
     \includegraphics[width=12cm, height=8cm]{figure/9.png}
-    \caption{Caption}
+    \caption{导出参赛数据}
     \label{fig:export_data}
 \end{figure}
 
@@ -247,24 +249,31 @@ May 10, 2020
 \begin{figure}[h]
     \centering
     \includegraphics[width=10cm, height=8cm]{figure/10.png}
-    \caption{Caption}
+    \caption{博客展示区}
     \label{fig:blog}
 \end{figure}
 
 \section{个人空间}
 
-预留的接口，设计目的是让建模学子展示自己，照片、个签或参赛经历等，方便找队友，找对象(误)等，但尚未开发,
-主要是开发人员不会Web开发, 如图\ref{fig:space}。
+预留的接口，设计目的是让建模学子展示自己，照片、个签或参赛经历等，方便找队友，找对象(误)等，但尚未开发，
+主要是开发人员不会Web开发， 如图\ref{fig:space}。
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=10.5cm, height=8cm]{figure/11.png}
-    \caption{Caption}
+    \caption{个人空间}
     \label{fig:space}
 \end{figure}
 
 \chapter{结语}
 
-祝各位愉快度过建模生涯。
+经不断反馈BUG与调试，也在不断的修正和完善软件。截至此次更新，Github共有40次左右的提交，正式版本有2次，最后祝各位愉快度过建模生涯。
+
+\datechange{2020/05/10}{版本 2.0 正式发布}
+
+\begin{change}
+  \item 1.0 为内部测试版本。
+  \item 2.0 修正管理员登录的身份验证紊乱BUG。
+\end{change}
 
 \end{document}
