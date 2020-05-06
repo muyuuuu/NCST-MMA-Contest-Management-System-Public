@@ -13,7 +13,7 @@
 
 # 使用方法
 
-
+[pdf文档](https://github.com/muyuuuu/NCST-MMA-Contest-Management-System-Public/blob/master/%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf)
 
 # 下载
 
