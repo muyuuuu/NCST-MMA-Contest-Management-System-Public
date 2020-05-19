@@ -1,19 +1,19 @@
 \documentclass[cn, 11pt, chinese, show]{elegantbook}
 \usepackage{fontspec}
 \usepackage{xeCJK}
-\setCJKmainfont{SourceHanSerifCN-Regular}
+% \setCJKmainfont{SourceHanSerifCN-Regular}
 % \setmainfont{texgyrepagella-regular.otf}
 \setmonofont{Hack-Regular}
 
-\title{数学建模竞赛信息管理软件}
+\title{数学建模竞赛信息管理软件——使用文档}
 \subtitle{华北理工大学数学建模协会}
 
-\author{16计科刘佳玮}
+\author{16计科兰铃}
 \date{May 10， 2020}
 \version{2.0}
 \bioinfo{依赖}{Elegant\LaTeX{} Program}
 
-\extrainfo{Victory won\rq t come to us unless we go to it. --- M. Moore}
+\extrainfo{沿着旧地图，找不到新大陆}
 
 \logo{logo-blue.png}
 \cover{cover.jpg}
@@ -49,7 +49,7 @@
 \vskip 1.5cm
 
 \begin{flushright}
-刘佳玮\\
+兰铃\\
 May 10， 2020
 \end{flushright}
 
@@ -128,13 +128,12 @@ May 10， 2020
 \section{协作人员招募}
 
 当然，如果你有兴趣参与软件的后续开发与性能改善，恰好你有不错的编程经验，
-并掌握相关的软件开发技术包括但不限于：Git、Qt、Python、Linux和SQL。可以随时联系我，代码放到了网上，
-到时候我邀请你，相互交流。
+并掌握相关的软件开发技术包括但不限于：Git、Qt、Python、Linux和SQL。可以随时联系我，代码放到了网上，到时候我邀请你，相互交流。
 
 但也不仅仅限制与Qt，无论你是Java还是Python，无论是GUI开发还是Web开发，你的想法仍然会受到我们的欢迎。
 当然，开发也会有专门的文档记录，这里是使用文档。
 
-也许你根本不会编程，但仍然想为本软件尽一分力，欢迎把这份文档翻译为英文(不限于此)，在此感谢你无私的奉献！
+也许你不会编程，但仍然想为本软件尽一分力，欢迎把这份文档翻译为英文(不限于此)，在此感谢你无私的奉献！
 
 \section{捐赠与致谢}
 
@@ -173,6 +172,10 @@ May 10， 2020
 
 \begin{remark}
 密码已加密，也做了注入攻击的防护措施。
+\end{remark}
+
+\begin{remark}
+切换登录账号时，请退出软件并重新登录。
 \end{remark}
 
 \newpage
@@ -274,6 +277,8 @@ May 10， 2020
 \begin{change}
   \item 1.0 为内部测试版本。
   \item 2.0 修正管理员登录的身份验证紊乱BUG。
+  \item 重新定制软件尺寸和控件尺寸，适应高分屏电脑。
+  \item 修改专业同名无法录入的情况，如以升学院的电气工程和电气学院的电气工程。
 \end{change}
 
 \end{document}
